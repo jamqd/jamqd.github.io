@@ -1,2 +1,2 @@
 # Personal Website
-{http://johndang.me}
+http://johndang.me

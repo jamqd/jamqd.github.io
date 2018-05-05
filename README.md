@@ -1,2 +1,2 @@
 # Personal Website
-johndang.me
+[johndang.me]:johndang.me

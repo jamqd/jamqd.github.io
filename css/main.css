@@ -1,0 +1,15 @@
+#landing {
+    height: 100vh;
+    width: 100vw;
+    background:transparent !important
+}
+
+#profile-pic {
+    width:70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    
+}

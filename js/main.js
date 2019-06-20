@@ -6,3 +6,7 @@ var typed = new Typed("#typed", {
     showCursor: true,
     typeSpeed: 25
 });
+
+
+
+

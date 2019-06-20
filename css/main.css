@@ -4,11 +4,35 @@
 }
 
 #profile-pic {
-    height:50%;
+    height:40%;
     width: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 25px;
     
+}
+
+#links {
+    text-align: right;
+}
+
+.faLink:hover {
+    text-decoration: none;
+}
+
+.faLink{
+    margin-right: 2%;
+}
+
+.far, .fab {
+    color: black;
+}
+
+.far:hover, .fab:hover {
+    color: blue;
+}
+
+#profile {
+    text-align: center;
 }

@@ -15,100 +15,26 @@
         <title>John Dang</title>
         <link rel="icon" type="image/x-icon" href="/images/faviconjd.ico">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
-
-
     </head>
 
     <body>
-        <div id="top" class="container-fluid">
-            <div class="row">
-                <div id="landing" class="col-xl-6">
-                    <h1>John Dang</h1>
-                    <p id="typed" class="lead" style="display:inline;"> </p>
-                </div>
-                <div id="links" class="col-xl-6">
-                    <br>
-                    <br>
-                    <a class="faLink" href="https://www.linkedin.com/in/johnamqdang/">
-                        <i class="fab fa-linkedin-in fa-2x"></i>
-                    </a>
-                    <a class="faLink" href="https://github.com/jamqd">
-                        <i class="fab fa-github fa-2x blackiconcolor"></i>
-                    </a>
-                    <a class="faLink" href="https://twitter.com/jamqdang">
-                        <i class="fab fa-twitter fa-2x"></i>
-                    </a>
-                    <a class="faLink" href="https://www.facebook.com/jamqd">
-                        <i class="fab fa-facebook-f fa-2x"></i>
-                    </a>
-                </div>
+        <div id="main" class="col-xl">
+            <img id="profile" src="images/profile.jpg" class="rounded-circle">
+            <div id="content">
+                <h1 id="name">John Dang</h1>
+                <p id="descriptors">CS Student.   Software Engineer.   AI/ML Researcher.</p>
+
+                <p id="links">
+                   <a href="https://johndang.me/resume">Resume</a> / 
+                   <a href="https://www.linkedin.com/in/johnamqdang/">LinkedIn</a> / 
+                   <a href="https://github.com/jamqd">Github</a> / 
+                   <a href="https://www.facebook.com/jamqd">Facebook</a> /
+                   <a href="https://twitter.com/jamqdang">Twitter</a> 
+                </p>
             </div>
-            <hr class="my-4">
         </div>
-
-
-        <div id="bio" class="container-fluid">
-            <div class="row">
-                <div id="profile" class="col-xl-4 col-lg-12 col-md-12 col-sm-12">
-                    <img id="profile-pic" src="images/profile.jpg" class="img-fluid " alt="Profile Picture">
-                    <p></p>
-                    <p>Email: <a href="mailto:john.amq.dang@gmail.com">john.amq.dang@gmail.com</a></p>
-                    <a href="https://johndang.me/resume">Resume</a>
-                    
-                </div>
-
-                <div id="bio-text" class="col-xl-8 col-lg-12 col-md-12 col-sm-12">
-                    <p>
-                        I am a computer science student at UCLA. I am originally from San Jose, CA where 
-                        I  graduated from Evergreen Valley High School in May 2018. Beyond my studies, I am passionate about 
-                        Artificial Intelligence and its applications, especially in robotics and medicine.
-                        I spend most of my time working on related research or engineering work.
-                    </p>
-
-
-                    <p>
-                        At the <a href="https://vcla.stat.ucla.edu/">Center for Vision Cognition Learning and Autonomy (VCLA)</a>,  I work on researching
-                        reinforcement learning, transfer learning,  and causal learning
-                        under professor <a href="http://www.stat.ucla.edu/~sczhu/">Song-Chun Zhu</a>.
-                        I am also working jointly at the International Center for AI and Robot Autonomy (CARA), a non-profit research institue. Currently, I am working on developing 
-                        <a href="https://xuxie1031.github.io/projects/VRGym/VRGymProj.html">VRGym</a>,
-                        a platform for physical and interactive AI/robotics research in 3D environments. My collaborators at VCLA and CARA include 
-                        <a href="http://www.mjedmonds.com/">Mark Edmonds</a>,  <a href="https://xuxie1031.github.io/">Xu Xie</a>,and 
-                        <a href="https://yzhu.io"> Yixin Zhu</a>.  Beyond my coursework and research, I work on leading an internal AI project at 
-                        <a href="http://www.uclaacm.com/">UCLA's Association for Computing Machinery Chapter</a>. 
-                    </p>
-
-                    <p>
-                        Previously, I was a  deep learning engineer (and one of the first group of five non-founding team members) at 
-                        <a href="https://sikeinsights.com/">Sike AI</a>. 
-                        Sike AI is venture capital backed and hosted by the StartupUCLA and Anderson Venture Accelerators. 
-                        Recently, I was a machine learning researcher at the 
-                        <a href="https://org.ee.ucla.edu/">Ozcan Research Group</a> and <a href="https://www.hhmi.org">Howard Hughes Medical Institute</a> under professor 
-                        <a href="https://www.ee.ucla.edu/aydogan-ozcan/">Aydogan Ozcan</a> where I worked on developing a deep learning system for fast 
-                        and accurate diagnosis of diseases on mobile embedded devices. A poster of our work that I presented can 
-                        be found <a href="/assets/ozcan.pdf">here</a>. I was also previously a software engineering intern at 
-                        <a href="https://logosnews.tech/">Logos</a>. In my free time, I enjoy playing guitar, going to the gym, singing, 
-                        and watching stand-up comedy.
-                    </p>
-                </div>
-
-            </div>
-
-        </div>
-        <script>
-            ScrollReveal().reveal("#links", {
-                origin: "top",
-                distance: "100%",
-                duration: 1500
-            });
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
         <script src="/js/main.js"></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/4f43a90254.js"></script>
     </body>
-
 </html>

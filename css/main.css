@@ -11,11 +11,8 @@
 
 #main {
     position: absolute;
-    /* left: 25%; */
     top: 25%; 
-    /* width:50vw; */
     height:50vh;
-    border: 5px solid #EEEEEE;
 }
 
 #content {
